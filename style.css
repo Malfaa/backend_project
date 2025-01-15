@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+.anotacoes{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+
+.anotacoes .item{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #83f1b5;
+    border: 1px solid grey;
+}
